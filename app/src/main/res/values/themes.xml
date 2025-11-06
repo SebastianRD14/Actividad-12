@@ -1,8 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Actividad12" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/primary1</item>
+        <item name="colorPrimaryVariant">@color/primary2</item>
+        <item name="colorSecondary">@color/secondary1</item>
+        <item name="colorSecondaryVariant">@color/secondary2</item>
+        <item name="colorTertiary">@color/tertiary1</item>
+        <item name="colorAccent">@color/tertiary2</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="android:textColor">@color/text_color</item>
+
+        <!-- 🖋️ Fuente principal -->
+        <item name="android:fontFamily">@font/funnelsansp</item>
     </style>
 
     <style name="Theme.Actividad12" parent="Base.Theme.Actividad12" />
